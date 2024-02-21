@@ -6,10 +6,11 @@
    <body>
        <h1>My First Heading</h1>
        <p>My first paragragh.</p>
+       <img src="C:\Users\User\Downloads\html_dasar.zip\html_dasar\gambar" alt="gambar4">
     <meta charset="UTF-8">
     <meta name="description" content="Belajar membuat HTML">
     <meta name="keywords" content="Heading dan paragraf">
     <meta name="author" content="Khoirul Faulah Nur Rohmah">
-    <img src="C:\Users\User\Downloads\html_dasar.zip\html_dasar\gambar" alt="gambar4">
+    
 </body>
 </html>
