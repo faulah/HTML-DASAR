@@ -2,15 +2,15 @@
        <head>
        <title> Halaman HTML saya </title>
        <body>
+       <link rel="gambar" type="img/jpg" href="html_dasar/gambar/Gambar-Pemandangan.webp" />
        <link rel="gambar" type="img/jpg" href="html_dasar/gambar/gambar.jpg" />
        <link rel="gambar" type="img/jpg" href="html_dasar/gambar/gambar1.jpg" />
        <link rel="gambar" type="img/jpg" href="html_dasar/gambar/gambar2.jpg" />
        <link rel="gambar" type="img/jpg" href="html_dasar/gambar/gambar4.jpg" />
-       <link rel="gambar" type="img/jpg" href="html_dasar/gambar/Gambar-Pemandangan.webp" />
-       <img src="gambar/gambar.jpg" width="100%" border="1px" alt="ini gambar yang bagus">
+       <img src="html_dasar/gambar/gambar2.jpg" width="100%" border="1px" alt="ini gambar yang bagus">
        </body>
     <a href="latihan4">
-        <img src="gambar/tombol.gif" alt="subscribe" style="width:150px;height:300px">
+        <img src="html_dasar/gambar/tombol.gif" alt="subscribe" style="width:150px;height:300px">
     </a>
        </head>
 </html>
