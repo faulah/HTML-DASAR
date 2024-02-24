@@ -1,6 +1,7 @@
 <table borde="1px" bgcolor="aqua" width="100%">
 <tr>
-    <td rowspan="4"> html_dasar/gambar/WhatsApp Image 2023-12-16 at 23.08.43(1).jpeg         </td>
+    <td rowspan="4">          </td>
+    <link rel="gambar" type="img.jpg" href="html_dasar/gambar/WhatsApp Image 2023-12-16 at 23.08.43(1).jpeg ">
     <td> NIM</td>
     <td> : 233307053              </td>
 </tr>
