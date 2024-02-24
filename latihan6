@@ -10,7 +10,7 @@
        <img src="gambar/gambar.jpg" width="100/" borde="1px" alt="ini gambar yang bagus">
        </body>
     <a href="latihan4">
-        <img src="gambar/" alt="subscribe" style="width:150px;height:300px">
+        <img src="gambar/tombol.gif" alt="subscribe" style="width:150px;height:300px">
     </a>
        </head>
 </html>
