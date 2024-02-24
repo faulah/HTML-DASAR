@@ -1,16 +1,16 @@
-<table borde="300px" bgcolor="aqua" width="100/">
+<table borde="1px" bgcolor="aqua" width="100%">
 <tr>
-    <td rowspan="4"> FOTO </td>
+    <td rowspan="4"> FOTO         </td>
     <td> NIM</td>
-    <td> : 233307053 </td>
+    <td> : 233307053              </td>
 </tr>
 <tr>
     <td> Nama </td>
-    <td> : Faulah </td>
+    <td> : Faulah                 </td>
 </tr>
 <tr> 
     <td> Alamat </td>
-    <td> : Magetan </td>
+    <td> : Magetan                </td>
 </tr>
 <tr>
     <td> TTL </td>
@@ -18,6 +18,6 @@
 </tr>
 <tr>
     <td> Kelas </td>
-    <td> : 2B </td>
+    <td> : 2B                     </td>
 </tr>
 </table>
