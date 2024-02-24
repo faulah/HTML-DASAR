@@ -21,6 +21,17 @@
             <li> Nanas </li>
         </ul>
     </li>
-    <li> Jenis Makanan : </li>
-    <li> gender : </li>
+    <li> Jenis Makanan :
+        <ul>
+            <li> Mie gacoan </li>
+            <li> Soto </li>
+            <li> Seblak </li>
+        </ul> 
+    </li>
+    <li> gender : 
+        <ul> 
+            <li> Perempuan </li>
+            <li> Laki-Laki </li>
+        </ul>
+    </li>
 </ol>    
