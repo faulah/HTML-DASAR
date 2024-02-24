@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .biodata-container {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="biodata-container">
+        <h2>Biodata 1</h2>
+        <p>Nama: John Doe</p>
+        <p>Usia: 25 tahun</p>
+        <p>Pekerjaan: Web Developer</p>
+    </div>
+
+    <div class="biodata-container">
+        <h2>Biodata 2</h2>
+        <p>Nama: Jane Doe</p>
+        <p>Usia: 22 tahun</p>
+        <p>Pekerjaan: Graphic Designer</p>
+    </div>
+
+    <div class="biodata-container">
+        <h2>Biodata 3</h2>
+        <p>Nama: Alex Smith</p>
+        <p>Usia: 30 tahun</p>
+        <p>Pekerjaan: Data Scientist</p>
+    </div>
+
+</body>
+</html>
