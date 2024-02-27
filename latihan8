@@ -23,21 +23,25 @@
 </head>
 <body>
 
-    <h1>Selamat Datang di Halaman Biodata</h1>
+    <h1> Biodata </h1>
 
     <div class="biodata-container">
         <div class="biodata">
             <h2>Biodata 1</h2>
-            <p>Nama: Faulah </p>
-            <p>Usia: 19 tahun</p>
-            <p>Alamat: Magetan </p>
+            <p>Nim: 233307053 </p>
+            <p>Nama: Khoirul Faulah </p>
+            <p>Alamat: Magetan</p>
+            <p>TTL: Magetan, 25 April 2004 </p>
+            <p>Kelas: 2B </p>
         </div>
 
         <div class="biodata">
             <h2>Biodata 2</h2>
-            <p>Nama: Faulah </p>
-            <p>Usia: 19 tahun</p>
-            <p>Alamat: Magetan </p>
+            <p>Nim: 233307039 </p>
+            <p>Nama: Chandra Dina </p>
+            <p>Alamat: Magetan</p>
+            <p>TTL: Magetan, 23 Desember 2004 </p>
+            <p>Kelas: 2B </p>
         </div>
     </div>
 
