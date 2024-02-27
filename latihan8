@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tampilan Biodata</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .biodata-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .biodata {
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 45%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Selamat Datang di Halaman Biodata</h1>
+
+    <div class="biodata-container">
+        <div class="biodata">
+            <h2>Biodata 1</h2>
+            <p>Nama: John Doe</p>
+            <p>Usia: 25 tahun</p>
+            <p>Alamat: Jl. Contoh No. 123</p>
+            <p>Email: john.doe@example.com</p>
+        </div>
+
+        <div class="biodata">
+            <h2>Biodata 2</h2>
+            <p>Nama: Jane Smith</p>
+            <p>Usia: 28 tahun</p>
+            <p>Alamat: Jl. Contoh No. 456</p>
+            <p>Email: jane.smith@example.com</p>
+        </div>
+    </div>
+
+</body>
+</html>
