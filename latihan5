@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-   <head>
-    <title> Halaman HTML saya </title>
-   </head>
-   <body>
-    
-      <a href="http://www.pnm.ac.id/"> Halaman PNM </a>
-      <a href="latihan4"> Halaman list </a>
-      <a href="latihan3"> Halaman paragraf </a>
-      <a href="latihan2"> Halaman heading </a>
-
-   </body>
-   </html>
+<html>
+<head>
+    <title>Halaman HTML saya</title>
+</head>
+<body>
+    <a href="http://www.pnm.ac.id/" target="_blank">Halaman PNM</a>
+    <a href="latihan4" target="_blank">Halaman list</a>
+    <a href="latihan3" target="_blank">Halaman paragraf</a>
+    <a href="latihan2" target="_blank">Halaman heading</a>
+</body>
+</html>
