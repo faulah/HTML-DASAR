@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Halaman HTML Angger</title>
-        <link rel="icon" type="img/png" href="gambar/icon.png"/> <sizez="16x16" />
+        <link rel="icon" type="img/png" href="html_dasar/gambar/icon.png"/> <sizez="16x16" />
         <style>
             /* CSS untuk tata letak */
             body {
