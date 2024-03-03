@@ -75,13 +75,6 @@
         
         <button type="submit">Daftar</button>
     </form>
-    <script>
-        function submitForm() {
-            var nama = document.getElementById("nama").value;
-            var email = document.getElementById("email").value;
-            var telepon = document.getElementById("telepon").value;
-            alert("Terima Kasih, Anda Telah Terdaftar Untuk Seminar.");
-        }
-    </script>
+    
 </body>
 </html>
