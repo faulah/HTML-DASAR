@@ -72,7 +72,7 @@
             <option value="paket2">Paket 2 - Rp 150.000</option>
             <option value="paket3">Paket 3 - Rp 200.000</option>
         </select>
-        <form action="proses_registrasi.php" method="post">
+        
         <button type="submit">Daftar</button>
     </form>
 </body>
