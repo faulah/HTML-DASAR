@@ -75,5 +75,6 @@
         
         <button type="submit">Daftar</button>
     </form>
+    <h2>Terima kasih, pendaftaran Anda berhasil!</h2>
 </body>
 </html>
