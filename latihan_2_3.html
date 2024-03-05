@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Mahasiswa Baru</title>
+</head>
+<body>
+    <h1>Form Pendaftaran Mahasiswa Baru</h1>
+    <form action="#">
+        <label for="nama_lengkap">Nama Lengkap:</label><br>
+        <input type="text" id="nama_lengkap" name="nama_lengkap" required><br>
+
+        <label for="tempat_tanggal_lahir">Tempat Tanggal Lahir:</label><br>
+        <input type="text" id="tempat_tanggal_lahir" name="tempat_tanggal_lahir" required><br>
+
+        <label for="agama">Agama:</label><br>
+        <input type="text" id="agama" name="agama" required><br>
+
+        <label for="jenis_kelamin">Jenis Kelamin:</label><br>
+        <select id="jenis_kelamin" name="jenis_kelamin" required>
+            <option value=""></option>
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+        </select><br>
+
+        <label for="alamat_rumah">Alamat Rumah:</label><br>
+        <textarea id="alamat_rumah" name="alamat_rumah" required></textarea><br>
+
+        <label for="no_telp">No. Telp:</label><br>
+        <input type="tel" id="no_telp" name="no_telp" required><br>
+
+        <label for="nama_sekolah_asal">Nama Sekolah Asal:</label><br>
+        <input type="text" id="nama_sekolah_asal" name="nama_sekolah_asal" required><br>
+
+        <label for="no_ijazah_sma_ma">No. Ijazah SMA/MA:</label><br>
+        <input type="text" id="no_ijazah_sma_ma" name="no_ijazah_sma_ma" required><br>
+
+        <label for="foto">Foto (Ukuran File Maks. 20 KB):</label><br>
+        <input type="file" id="foto" name="foto" accept="image/*" required><br>
+
+        <label for="nama_ayah">Nama Ayah:</label><br>
+        <input type="text" id="nama_ayah" name="nama_ayah" required><br>
+
+        <label for="nama_ibu">Nama Ibu:</label><br>
+        <input type="text" id="nama_ibu" name="nama_ibu" required><br>
+
+        <label for="alamat_sekolah_asal">Alamat Sekolah Asal:</label><br>
+        <textarea id="alamat_sekolah_asal" name="alamat_sekolah_asal" required></textarea><br>
+
+        <label for="jurusan_dipilih">Jurusan Dipilih:</label><br>
+        <select id="jurusan_dipilih" name="jurusan_dipilih" required>
+            <option value=""></option>
+            <option value="Koran">Koran</option>
+            <option value="Website">Website</option>
+            <option value="Televisi">Televisi</option>
+            <option value="Radio">Radio</option>
+            <option value="Teman">Teman</option>
+        </select><br>
+    </form>
+</body>
+</html>
