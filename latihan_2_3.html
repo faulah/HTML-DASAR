@@ -1,64 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="img/png" href="html_dasar/gambar/icon.png" sizes="16x16">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulir Pendaftaran Mahasiswa Baru</title>
-</head>
-<body>
-    <h2>Formulir Pendaftaran Mahasiswa Baru</h2>
-    <form action="proses_pendaftaran.php" method="post" enctype="multipart/form-data">
-        <label for="nama">Nama:</label>
-        <input type="text" name="nama" required><br>
+<<form>
+    <h2>Form Pendaftaran Mahasiswa Baru</h2>
 
-        <label for="tempat_lahir">Tempat Lahir:</label>
-        <input type="text" name="tempat_lahir" required><br>
+    <label for="namaLengkap">Nama Lengkap:</label><br>
+    <input type="text" id="namaLengkap" name="namaLengkap"><br>
 
-        <label for="tanggal_lahir">Tanggal Lahir:</label>
-        <input type="date" name="tanggal_lahir" required><br>
+    <label for="tempatTanggalLahir">Tempat Tanggal Lahir:</label><br>
+    <input type="text" id="tempatTanggalLahir" name="tempatTanggalLahir"><br>
 
-        <label for="agama">Agama:</label>
-        <input type="text" name="agama" required><br>
+    <label for="agama">Agama:</label><br>
+    <select id="agama" name="agama">
+        <option value="islam">Islam</option>
+        <option value="kristen">Kristen</option>
+        <option value="katolik">Katolik</option>
+        <option value="hindu">Hindu</option>
+        <option value="budha">Budha</option>
+        <option value="konghucu">Konghucu</option>
+    </select><br>
 
-        <label for="jenis_kelamin">Jenis Kelamin:</label>
-        <select name="jenis_kelamin" required>
-            <option value="Laki-laki">Laki-laki</option>
-            <option value="Perempuan">Perempuan</option>
-        </select><br>
+    <label for="jenisKelamin">Jenis Kelamin:</label><br>
+    <input type="radio" id="lakiLaki" name="jenisKelamin" value="laki-laki">
+    <label for="lakiLaki">Laki-laki</label><br>
+    <input type="radio" id="perempuan" name="jenisKelamin" value="perempuan">
+    <label for="perempuan">Perempuan</label><br>
 
-        <label for="no_ijasah">No. Ijazah SMA/MA:</label>
-        <input type="text" name="no_ijasah" required><br>
+    <label for="alamatRumah">Alamat Rumah:</label><br>
+    <textarea id="alamatRumah" name="alamatRumah"></textarea><br>
 
-        <label for="foto">Foto (JPEG, PNG):</label>
-        <input type="file" name="foto" accept="image/jpeg, image/png" required><br>
+    <label for="noTelp">No. Telp:</label><br>
+    <input type="tel" id="noTelp" name="noTelp"><br>
 
-        <label for="nama_ayah">Nama Ayah:</label>
-        <input type="text" name="nama_ayah" required><br>
+    <label for="namaSekolahAsal">Nama Sekolah Asal:</label><br>
+    <input type="text" id="namaSekolahAsal" name="namaSekolahAsal"><br>
 
-        <label for="nama_ibu">Nama Ibu:</label>
-        <input type="text" name="nama_ibu" required><br>
+    <label for="noIjazah">No. Ijazah SMA/MA:</label><br>
+    <input type="text" id="noIjazah" name="noIjazah"><br>
 
-        <label for="alamat_rumah">Alamat Rumah:</label>
-        <textarea name="alamat_rumah" required></textarea><br>
+    <label for="foto">Foto (Ukuran File Maks. 20 KB):</label><br>
+    <input type="file" id="foto" name="foto"><br>
 
-        <label for="no_telepon">No. Telepon:</label>
-        <input type="tel" name="no_telepon" required><br>
+    <label for="namaAyah">Nama Ayah:</label><br>
+    <input type="text" id="namaAyah" name="namaAyah"><br>
 
-        <label for="asal_sekolah">Nama Asal Sekolah:</label>
-        <input type="text" name="asal_sekolah" required><br>
+    <label for="namaIbu">Nama Ibu:</label><br>
+    <input type="text" id="namaIbu" name="namaIbu"><br>
 
-        <label for="alamat_asal_sekolah">Alamat Asal Sekolah:</label>
-        <textarea name="alamat_asal_sekolah" required></textarea><br>
+    <label for="alamatSekolahAsal">Alamat Sekolah Asal:</label><br>
+    <textarea id="alamatSekolahAsal" name="alamatSekolahAsal"></textarea><br>
 
-        <label for="jurusan">Jurusan Pilihan:</label>
-        <input type="text" name="jurusan" required><br>
+    <label for="jurusanDipilih">Jurusan Dipilih:</label><br>
+    <select id="jurusanDipilih" name="jurusanDipilih">
+        <option value="tkj">Teknik Komputer Jaringan</option>
+        <option value="rpl">Rekayasa Perangkat Lunak</option>
+        <option value="mm">Multimedia</option>
+    </select><br>
 
-        <label for="informasi">Tahu Informasi Ini Dari:</label>
-        <input type="text" name="informasi" required><br>
-
-        <input type="submit" value="Daftar">
-    </form>
-</body>
-</html>
-
+    <label for="tahuInformasi">Tahu informasi ini dari:</label>
+    <select id="tahuInformasi" name="tahuInformasi">
+       
