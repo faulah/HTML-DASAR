@@ -10,17 +10,11 @@
 <body>
     
     <div id="content">
-        <img src="html_dasar/gambar/workplace.jpg" alt="workplace" usemap="#petagambar">
+        <img src="html_dasar/gambar/workplace.jpg" alt="Workplace" usemap="#petagambar">
         
         <map name="petagambar">
             <area shape="rect" coords="34, 44, 270, 350" alt="Computer" href="https://en.wikipedia.org/wiki/Computer">
-        </map>
-
-        <map name="petagambar">
             <area shape="rect" coords="290, 172, 333, 250" alt="Phone" href="https://en.wikipedia.org/wiki/Telephone">
-        </map>
-
-        <map name="petagambar">
             <area shape="circle" coords="337, 300, 44" alt="Coffee" href="https://en.wikipedia.org/wiki/Coffee">
         </map>
     </div>
