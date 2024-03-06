@@ -19,7 +19,7 @@
         </ul>
     </div>
     <div id="content">
-        <img src="html_dasar/gambar/gambar-peta-indonesia-1.gif" alt="workplace" usemap="#petagambar">
+        <img src="html_dasar/gambar/462dcc0a-8fe9-4208-8881-1e4c61307420_43.jpg" alt="workplace" usemap="#petagambar">
         
         <map name="petagambar">
             <area shape="rect" coords="34, 44, 270, 350" alt="computer" href="https://en.wikipedia.org/wiki/Computer">
@@ -28,7 +28,7 @@
         </map>
     </div>
     <div id="footer">
-        <i>copyright@faulah_532023</i>
+        <i>copyright@faulah_233307053</i>
     </div>
 </body>
 </html>
