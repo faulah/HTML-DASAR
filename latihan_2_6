@@ -19,7 +19,7 @@
         </ul>
     </div>
     <div id="content">
-        <img src="html_dasar/gambar/462dcc0a-8fe9-4208-8881-1e4c61307420_43.jpg" alt="workplace" usemap="#petagambar">
+        <img src="html_dasar/gambar/workplace.jpg" alt="workplace" usemap="#petagambar">
         
         <map name="petagambar">
             <area shape="rect" coords="34, 44, 270, 350" alt="computer" href="https://en.wikipedia.org/wiki/Computer">
