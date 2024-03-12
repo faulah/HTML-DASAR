@@ -3,65 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="html_dasar/gambar/icon.png" sizes="16x16">
     <title>Personal Information</title>
     <style>
-        body {
-            font-family: 'Times New Roman', Times, serif;
+        form {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .column {
+            width: 45%;
+            margin-right: 5%;
+        }
+
+        .column:last-child {
+            margin-right: 0;
+        }
+
+        label, input {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        input[type="date"], input[type="time"] {
+            width: auto;
+        }
+
+        input[type="submit"] {
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <form method="post" action="proses.php">
-        <fieldset>
-            <legend> Informasi Pribadi </legend>
-            <table>
-                <tr>
-                    <td><label for="nama">Nama</label></td><br>
-                    <td><input type="text" id="nama" name="nama" required></td><br>
-                </tr>
+    <h1>Informasi Pribadi</h1>
+    <form>
+        <div class="column">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name">
 
-                <tr>
-                    <td><label for="telp">No. Telp</label></td><br>
-                    <td><input type="text" id="telp" name="telepon" required></td><br>
-                </tr>
+            <label for="phone">No. Telepon:</label>
+            <input type="tel" id="phone" name="phone">
 
-                <tr>
-                    <td><label for="email">Alamat Email</label></td><br>
-                    <td><input type="text" id="email" name="email"></td><br>
-                </tr>
+            <label for="email">Alamat Email:</label>
+            <input type="email" id="email" name="email">
 
-                <tr> 
-                    <td><label for="tanggal">Tanggal lahir</label></td><br>
-                    <td><input type="date" id="tanggal" name="tanggal"></td>
-                </tr>
-            </table>
-        </fieldset>
+            <label for="dob">Tanggal Lahir (mm/dd/yyyy):</label>
+            <input type="date" id="dob" name="dob">
+        </div>
 
-        <fieldset>
-            <legend> Permintaan Pertemuan </legend>
-            <table>
-                <tr>
-                    <td><label for="tujuan">Tujuan Pertemuan</label></td>
-                    <td><input type="text" id="tujuan" name="tujuan"></td>
-                </tr>
+        <div class="column">
+            <h2>-Permintaan Pertemuan</h2>
 
-                <tr>
-                    <td><label for="tingkat">Tingkat Kepentingan Pertemuan</label></td>
-                    <td><input type="range" id="tingkat" name="tingkat"></td>
-                </tr>
+            <label for="meetingPurpose">Tujuan Pertemuan:</label>
+            <input type="text" id="meetingPurpose" name="meetingPurpose">
 
-                <tr>
-                    <td><label for="tanggal_pertemuan">Tanggal</label></td>
-                    <td><input type="date" id="tanggal_pertemuan" name="tanggal_pertemuan"></td>
-                </tr>
+            <label for="meetingImportance">Tingkat Kepentingan Pertemuan:</label>
+            <input type="range" id="meetingImportance" name="meetingImportance" min="1" max="10">
 
-                <tr>
-                    <td><label for="waktu">Waktu</label></td>
-                    <td><input type="time" id="waktu" name="waktu"></td>
-                </tr>
-            </table>
-        </fieldset>
+            <label for="meetingDate">Tanggal (mm/dd/yyyy):</label>
+            <input type="date" id="meetingDate" name="meetingDate">
+
+            <label for="meetingTime">Waktu:</label>
+            <input type="time" id="meetingTime" name="meetingTime">
+        </div>
 
         <input type="submit" value="Submit">
     </form>
