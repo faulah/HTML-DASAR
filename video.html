@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>Halaman Beranda</title>
     <link rel="icon" type="image/png" href="html_dasar/gambar/icon.png" sizes="16x16">
@@ -13,12 +12,10 @@
         * {
             box-sizing: border-box;
         }
-
         body {
             font-family: Arial, Helvetica, sans-serif;
             margin: 0;
         }
-
         header {
             background-color: #666;
             padding: 30px;
@@ -26,43 +23,36 @@
             font-size: 35px;
             color: white;
         }
-
         nav {
             float: left;
             width: 30%;
-            height: auto;
+            height: 300px;
             background: #ccc;
             padding: 20px;
         }
-
         nav ul {
-            list-style-type: none;
+            list-style-type: none; 
             padding: 0;
         }
-
         article {
             float: left;
             padding: 20px;
             width: 70%;
             background-color: #f1f1f1;
-            height: auto;
+            height: 300px;
         }
-
         section::after {
             content: "";
             display: table;
             clear: both;
         }
-
         footer {
             background-color: #f1f1f1;
             padding: 10px;
             text-align: center;
         }
-
         @media (max-width: 600px) {
-            nav,
-            article {
+            nav, article { 
                 width: 100%;
                 height: auto;
             }
@@ -70,7 +60,6 @@
     </style>
 
 </head>
-
 <body>
     <header>
         <h2>Belajar HTML</h2>
@@ -80,7 +69,7 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="gambar.html">Gambar</a></li>
+                <li><a href="gambar.html">Gambar</a></li> 
                 <li><a href="event.html">Event</a></li>
                 <li><a href="audio.html">Audio</a></li>
                 <li><a href="video.html">Video</a></li>
@@ -90,8 +79,8 @@
         </nav>
         <article>
             <h1>Video</h1>
-            <video width="420" height="auto" controls>
-                <source src="html_advance/gambar/video/Skateboard.mp4" type="video/mp4">
+            <video width="50%" height="auto" controls>
+                <source src="html_advance/html_advance/gambar/video/Skateboard.mp4" type="video/mp4">
                 Browser tidak mendukung
             </video>
             <iframe width="420" height="315" src="https://www.youtube.com/embed/fn3KWM1kuAw" frameborder="0" allowfullscreen></iframe>
@@ -102,5 +91,4 @@
         © 2024 Video. All rights reserved.
     </footer>
 </body>
-
 </html>
