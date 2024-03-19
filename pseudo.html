@@ -12,7 +12,7 @@
             background-color: darkgray;
             padding: 20px;
         }
-        div :hover p { /* :hover adalah CSS pseudo class */
+        div:hover p { /* :hover adalah CSS pseudo class */
             display: block;
         }
         a:hover { /* ubah warna menjadi merah saat mouse di atasnya */
@@ -24,7 +24,23 @@
     <div> letakkan kursor disini untuk melihat div elemen
         <p> saya adalah element </p>
     </div>
-    <a href="#"> link yang berubah warna saat dihover</a>
+    <a href="#" id="myLink"> link yang berubah warna saat dihover</a>
+
+    <script>
+        // Mengambil elemen yang akan ditampilkan setelah klik link
+        var elementToDisplay = document.querySelector("p");
+
+        // Mengambil elemen link berdasarkan ID
+        var link = document.getElementById("myLink");
+
+        // Fungsi untuk menampilkan elemen setelah klik link
+        function displayElement() {
+            elementToDisplay.style.display = "block";
+        }
+
+        // Menambahkan event listener untuk menangkap klik link
+        link.addEventListener("click", displayElement);
+    </script>
 </body>
 </head>
 </html>
