@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Halaman Beranda</title>
+    <link rel="icon" type="image/png" href="html_dasar/gambar/icon.png" sizes="16x16">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        div p { /* no 1 */
+           color: red;
+        }
+        div > p { /* no 2 */
+            background-color: yellow;
+        }
+        div + p { /* no 3 */
+            background-color: darkgray;
+        }
+        div ~ p { /* no 4 */
+            color: cyan;
+        } 
+    </style>
+
+<body>
+    <div>
+        <p> kesimpulan selektor 1   </p>
+        <p> no 2 </p>
+    </div>
+    <p> no 3 </p>
+    <p> no 4 </p>
+    
+</body>
+</head>
+</html>
