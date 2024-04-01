@@ -12,7 +12,7 @@
                 "header header header"
                 "menu main right"
                 "menu footer footer";
-            grid-template-columns: auto auto auto;
+            grid-template-columns: 1fr 1fr 1fr;
             padding: 10px;
         }
         .item1 {
@@ -20,7 +20,7 @@
             padding: 20px;
             font-size: 30px;
             text-align: center;
-            grid-column: 1/4; 
+            grid-area: header; 
         }
         .item2 {
             background-color: rgba(255, 255, 255, 0.8);
@@ -28,8 +28,7 @@
             padding: 20px;
             font-size: 30px;
             text-align: center;
-            width: 50%;
-            grid-row: 2/5;
+            grid-area: menu;
         }
         .item3 {
             background-color: rgba(255, 255, 255, 0.8);
@@ -37,8 +36,7 @@
             padding: 20px;
             font-size: 30px;
             text-align: center;
-
-
+            grid-area: main;
         }
         .item4 {
             background-color: rgba(255, 255, 255, 0.8);
@@ -46,17 +44,15 @@
             padding: 20px;
             font-size: 30px;
             text-align: center;
+            grid-area: right;
         }
         .item5 {
             background-color: rgba(255, 255, 255, 0.8);
             border: 1px solid rgba(0, 0, 0, 0.8);
             padding: 20px;
-            margin: 6px;
             font-size: 30px;
             text-align: center;
-
-            
-            
+            grid-area: footer;
         }
     </style>
 </head>
