@@ -3,28 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil</title>
+    <title>Profil Saya</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-image: url("html_dasar/gambar2/gambarr.jpg");
+            background-size: cover;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: auto;
+        }
+
+        header {
+            color: lightslategray;
+            padding: 30px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-right: 10%;
+        }
+
+        header img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        #profile {
+            max-width: 600px;
+            margin: auto;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: medium;
+        }
+        li {
+            margin-bottom: 10px;
+            display: flex; 
+        }
+        li strong {
+            min-width: 80px; 
+        }
+
+    </style>
 </head>
 <body>
     <header>
-        <h1>Profil</h1>
-        <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="tentangsaya.html">Tentang Saya</a></li>
-                <li><a href="jadwal.html">Jadwal Perkuliahan</a></li>
-                <li><a href="hobi.html">Hobi</a></li>
-                <li><a href="pendaftaran.html">Halaman Pendaftaran</a></li>
-            </ul>
-        </nav>
+        <h1>Biodata Saya</h1>
+        <img src="html_dasar/gambar2/WhatsApp Image 2024-04-01 at 12.37.40 PM.jpeg" alt="Foto Profil">
     </header>
-    
-    <section class="content">
-        <p>Nama  : Khoirul Faulah Nur Rohmah</p>
-        <p>NIM   : 233307053</p>
-        <p>Kelas : 2B</p>
-        <p>TTL   : Magetan, 25 April 2004</p>
-    </section>
+    <main>
+        <section id="profile">
+            <ul>
+                <li><strong>Nama</strong>: Khoirul Faulah Nur Rohmah</li>
+                <li><strong>NIM</strong> : 233307053</li>
+                <li><strong>Kelas</strong> : 2B</li>
+                <li><strong>Prodi</strong>: Teknologi Informasi</li>
+                <li><strong>TTL</strong> : Magetan, 25 April 2004</li>
+                <li><strong>Alamat</strong>: Kiringan, Takeran, Magetan</li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>
