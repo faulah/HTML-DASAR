@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Perkuliahan</title>
+    <style>
+        body {
+            background-image: url("html_dasar/gambar2/gambarr.jpg");
+            background-size: cover;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            color: lightslategray;
+            text-align: center;
+            
+            
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: green;
+            color: white;
+           
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Jadwal Perkuliahan</h1>
+        <table>
+            <tr>
+                <th>Hari</th>
+                <th>Jam</th>
+                <th>Mata Kuliah</th>
+            </tr>
+            <tr>
+                <td>Senin</td>
+                <td>08:00 - 14:25</td>
+                <td>Pemrograman Berbasis Objek</td>
+            </tr>
+            <tr>
+                <td>Selasa</td>
+                <td>07:30 - 14:25</td>
+                <td>Pemrograman Mobile 1</td>
+            </tr>
+            <tr>
+                <td>Rabu</td>
+                <td>12:45 - 19:55</td>
+                <td>Desain & Pemrograman WEB</td>
+            </tr>
+            <tr>
+                <td>Kamis</td>
+                <td>12:45 - 19:55</td>
+                <td>Sistem Operasi</td>
+            </tr>
+            <tr>
+                <td>Jumat</td>
+                <td>07:50 - 09:30</td>
+                <td>Agama Islam</td>
+            </tr>
+            <tr>
+                <td>Jumat</td>
+                <td>09:45 - 11:25</td>
+                <td>Manajemen Resiko Proyek</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
