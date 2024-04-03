@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .tombol button {
+            padding: 7px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="tampil">
+        <li id="angka1"></li>
+        <li></li>
+        
+    </ul>
+    <div class="tombol">
+
+    </div>
+    <script> 
+        function tampilkan(angka) {
+            document.getElementById("angka1").append(angka);
+        }
+
+
+        const tempat = document.querySelector(".tombol");
+        for (let i = 0; i <= 9; i++) {
+            const terserah = document.createElement("button");
+            terserah.innerText = i;
+            tempat.appendChild(terserah);
+            terserah.addEventListener("click", tampilkan(i))
+        }
+
+            
+        
+    </script>
+</body>
+</html>
