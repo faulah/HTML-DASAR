@@ -1,5 +1,5 @@
 body {
-    background-image: url("uts/gambar1/gambar.jpg");
+    background-image: url("gambar1/gambarr.jpg");
     background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: auto;
@@ -10,7 +10,7 @@ header {
     justify-content: center; 
     align-items: center; 
     height: 500px; 
-    color: lightslategray;
+    color: lightslategrey;
     padding: 20px;
 }
 header h1 {
