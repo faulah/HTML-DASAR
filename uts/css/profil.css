@@ -1,5 +1,5 @@
 body {
-    background-image: url("gambar1/gambarr.jpg");
+    background-image: url("../gambar/gambarr.jpg");
     background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: auto;
