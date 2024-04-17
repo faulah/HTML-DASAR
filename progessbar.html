@@ -44,24 +44,23 @@
 </div>
 
 <script>
-    // Simulasi unduhan
+    
     function downloadFile() {
         let progress = 0;
         const progressBarFill = document.querySelector('.progress-bar-fill');
         const progressText = document.getElementById('progress-text');
 
         const interval = setInterval(() => {
-            progress += Math.random() * 10; // Simulasi peningkatan progres acak
+            progress += Math.random() * 10; 
             if (progress >= 100) {
                 clearInterval(interval);
                 progress = 100;
             }
             progressBarFill.style.width = progress + '%';
             progressText.textContent = Math.floor(progress) + '%';
-        }, 500); // Update setiap 500 milidetik
+        }, 500); 
     }
 
-    // Panggil fungsi unduh saat dokumen selesai dimuat
     window.onload = function() {
         downloadFile();
     };

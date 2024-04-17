@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu dengan jQuery</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+    .menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: #555;
+}
+
+</style>
+</head>
+<body>
+
+<div class="menu-container">
+  <ul class="menu">
+    <li><a href="#">Beranda</a></li>
+    <li><a href="#">Tentang Kami</a></li>
+    <li><a href="#">Layanan</a></li>
+    <li><a href="#">Kontak</a></li>
+  </ul>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+  $('.menu a').click(function(e) {
+    e.preventDefault(); // Hindari default behavior dari link
+
+    var targetElement = $(this).attr('href'); // Ambil nilai atribut href dari link yang diklik
+    $('html, body').animate({
+      scrollTop: $(targetElement).offset().top // Geser halaman ke posisi target
+    }, 1000); // Animasikan perpindahan halaman selama 1 detik
+  });
+});
+
+</script>
+<script src="script.js"></script>
+</body>
+</html>
