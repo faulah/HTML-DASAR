@@ -5,15 +5,14 @@
 </head>
 <body>
     <script lang="JavaScript">
-        function cekNama (form) {
-            if (form.element[0].value = " ") {
-                alert ("Nama Harus Dimasukkan");
-                form.nama.focus ();
+        function cekNama(form) {
+            if (form.elements[0].value == "") {
+                alert("Nama Harus Dimasukkan");
+                form.nama.focus();
                 form.nama.select();
-                return(false);
-            }
-            alert ("Terimakasih, " +
-                    form.element[0].value);
+                return false;
+        }
+            alert ("Terimakasih, " +  form.element[0].value);
                 return(true);
         }
     </script>
@@ -21,7 +20,7 @@
         <pre>
             Nama : <input type = "text" Name = "nama"><br>
             <input type="button" value="Kirim"
-                   onclick="cekNama (this.form)"><br>
+                onclick="cekNama (this.form)"><br>
         </pre>
     </form>
 </body>
