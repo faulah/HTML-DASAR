@@ -31,32 +31,80 @@
   color: #555;
 }
 
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.submenu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.submenu a:hover {
+  background-color: #ddd;
+}
+
 </style>
 </head>
 <body>
 
 <div class="menu-container">
   <ul class="menu">
-    <li><a href="#">Beranda</a></li>
-    <li><a href="#">Tentang Kami</a></li>
-    <li><a href="#">Layanan</a></li>
-    <li><a href="#">Kontak</a></li>
+    <li><a href="#">Makanan</a>
+      <ul class="submenu">
+        <li><a href="#">Nasi Goreng</a></li>
+        <li><a href="#">Gacoan</a></li>
+        <li><a href="#">Sate</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Cemilan</a>
+      <ul class="submenu">
+        <li><a href="#">Keripik</a></li>
+        <li><a href="#">Kacang</a></li>
+        <li><a href="#">Permen</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Minuman</a>
+      <ul class="submenu">
+        <li><a href="#">Teh</a></li>
+        <li><a href="#">Kopi</a></li>
+        <li><a href="#">Jus</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Buah</a>
+      <ul class="submenu">
+        <li><a href="#">Apel</a></li>
+        <li><a href="#">Pisang</a></li>
+        <li><a href="#">Anggur</a></li>
+      </ul>
+    </li>
   </ul>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function() {
-  $('.menu a').click(function(e) {
-    e.preventDefault(); // Hindari default behavior dari link
+  $('.menu li').click(function() {
+    $(this).children('.submenu').toggle();
+  });
 
-    var targetElement = $(this).attr('href'); // Ambil nilai atribut href dari link yang diklik
+  $('.menu a').click(function(e) {
+    e.preventDefault(); 
+
+    var targetElement = $(this).attr('href'); 
     $('html, body').animate({
-      scrollTop: $(targetElement).offset().top // Geser halaman ke posisi target
-    }, 1000); // Animasikan perpindahan halaman selama 1 detik
+      scrollTop: $(targetElement).offset().top 
+    }, 1000); 
   });
 });
-
 </script>
 <script src="script.js"></script>
 </body>
